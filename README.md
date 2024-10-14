@@ -1,12 +1,14 @@
-**Proyecto API REST - Autos y Categorías:**
-**Descripción:**
+# **Segunda Pre Entrega Java**
+## **Proyecto API REST - Autos y Categorías:**
+### **Descripción:**
 
 Esta API REST permite gestionar autos y categorías, proporcionando operaciones CRUD (Crear, Leer, Actualizar, Eliminar) tanto para autos como para categorías en modelo MVC.
 
-**Datos Internos:**
+### **Datos Internos:**
+
 El proyecto cuenta con un conjunto de autos y categorías precargadas que pueden ser gestionadas a través de los endpoints.
 
-**Autos:**
+#### **Autos:**
 <details>
 <summary>Click para ver detalles</summary>
 
@@ -44,8 +46,8 @@ El proyecto cuenta con un conjunto de autos y categorías precargadas que pueden
     {
         "id": 4,
         "marca": "Chevrolet",
-        "modelo": "fofofof",
-        "anio": 2039485,
+        "modelo": "Onix",
+        "anio": 2022,
         "precio": 16000.0,
         "categoriaId": 1,
         "categoria": "Sedán"
@@ -289,7 +291,7 @@ El proyecto cuenta con un conjunto de autos y categorías precargadas que pueden
 </details>
 
 
-**Categorías:**
+#### **Categorías:**
 <details>
 <summary>Click para ver detalles</summary>
 
@@ -350,14 +352,15 @@ El proyecto cuenta con un conjunto de autos y categorías precargadas que pueden
 ```
 </details>
 
-**Endpoints**
-**Categorías**
+### **Endpoints:**
+
+#### **Categorías:**
 * GET /categorias/getcategorias: Obtiene todas las categorías.
 * POST /categorias/createcategoria: Crea una nueva categoría.
 * DELETE /categorias/deletecategoria/{id}: Elimina una categoría por su ID.
 * PUT /categorias/modifycategoria: Modifica una categoría existente.
 
-**Autos**
+#### **Autos:**
 * GET /autos/getautos: Obtiene todos los autos.
 * POST /autos/createauto: Crea un nuevo auto.
 * DELETE /autos/deleteauto/{id}: Elimina un auto por su ID.
